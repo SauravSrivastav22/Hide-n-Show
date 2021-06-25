@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		text-align: center;
+		margin-top: 20px;
+		background-image: url(img/f.jpg);
+        background-size: 280%;
+        background-position: -400px 0px;
+        font-family: 'poppins', sans-serif;
+        
+	}
+    
+    button {
+	margin: 10px auto;
+	width: 150px;
+	height: 40px;
+	background-color: #39cccc;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+    text-align: center;
+    }
+    h1{
+        color: orchid;
+    }
+    button:hover{
+        background: #ff523b;
+        color: lightgreen;
+    }
+    .l{
+        padding: 20px 0;
+        width: 300px;
+        position: relative;
+        text-align: center;
+        background-color: rgba(0,0,0,0.2);
+        margin: auto;
+        border-radius: 10px;
+        border: 1px solid rgba(225,225,225,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    }
+    
+    
+    
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hideo").click(function(){
+    $("p1").toggle();
+  });
+
+  $("#hidee").click(function(){
+    $("p2").toggle();
+  });
+
+});
+</script>
+</head>
+<body>
+    <title>There are some Items like:-</title>
+    <h1>Items be like:-</h1>
+<div class="l">
+    <div class="k">
+        
+<p1>Odd Number:- 1</p1>
+<br>
+<p2 >Even Number:- 2</p2>
+<br>
+<p1>Odd Number:- 3</p1>
+<br>
+<p2 >Even Number:- 4</p2>
+<br>
+<p1>Odd Number:- 5</p1>
+<br>
+<p2>Even Number:- 6</p2>
+<br>
+<p1>Odd Number:- 7</p1>
+<br>
+<p2>Even Number:- 8</p2>
+<br>    
+<p1>Odd Number:- 9</p1>
+<br>
+<p2>Even Number:- 10</p2>
+<br>    
+<p1>Odd Number:- 11</p1>
+<br>
+<p2>Even Number:- 12</p2>
+<br>
+<p1>Odd Number:- 13</p1>
+<br>
+<p2>Even Number:- 14</p2>
+<br>
+<p1>Odd Number:- 15</p1>
+<br>
+<p2>Even Number:- 16</p2>
+<br>    
+    </div>
+    
+<button id="hideo">Hide & Show Even</button>
+<button id="hidee">Hide & Show Odd</button>
+    </div>
+</body>
+</html>
